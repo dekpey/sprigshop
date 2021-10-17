@@ -3,9 +3,11 @@
 A small single page web-application for a plant shop called sprig
 
 
-## Live [Demo](https://github.com/dekpey/sprigshop)
+## Live [Demo](https://dekpey.github.io/sprigshop/)
 
 and Link to our github repo **Bold**
+https://dekpey.github.io/sprigshop/
+https://github.com/dekpey/sprigshop
 
 ## Features
 
