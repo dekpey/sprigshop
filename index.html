@@ -8,8 +8,7 @@
     <script src="./script.js" async></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link href='https://css.gg/instagram.css' rel='stylesheet'>
     <link href='https://css.gg/facebook.css' rel='stylesheet'>
     <script>
@@ -24,6 +23,7 @@
         })
         });
 
+        
     </script>
     <title>Sprig Plant Shop</title>
 </head>
@@ -31,24 +31,24 @@
     <nav>
         <ul class="menu">
             <li class="logo"><a href="">SPRIG</a></li>
-            <li class="item"><a href="">ABOUT</a></li>
-            <li class="item"><a href="">PRODUCTS</a></li>
-            <li class="item"><a href="">CART</a></li>
+            <li class="item"><a href="#about">ABOUT</a></li>
+            <li class="item"><a href="#products">PRODUCTS</a></li>
+            <li class="item"><a href="#cart">CART</a></li>
             <li class="toggle"><span class="bars"></span></li>
         </ul>
     </nav>
     <!-- main content starts here -->
-    <main>
+    <main id="about">
     <h1>Welcome to Sprig <br> A plant lovers paradise</h1>
     <br/>
     <p>something green a day takes the worries away</p>
     <br/>
-    <button>View Products</button>
+    <button onclick="window.location.href='#products';">View Products</button>
     </main>
     <!-- main content ends here -->
     
     <!-- before cart -->
-    <section>
+    <section id="products">
         <h1>Sprig Products</h1>
     </section>
     <!-- start content here - section1 -->
@@ -56,10 +56,10 @@
     <div class="section1">
             <img src="./images/plant1.jpg" alt="Ctenanthe Burle-Marxii Amargis" style="width:100%">
             <div class="container">
-                <h3>Burle-Marxii</h3>
+                <h3>Calathea Burle-Marxii</h3>
                 <p class="price">$32.00 AUD</p>
                 <br/>
-                <button class="additem">Add to Cart</button>
+                <button class="additem" type="button">Add to Cart</button>
                 </div>
           </div>
     </div>
@@ -73,7 +73,7 @@
                 <h3>Calathea Zebrina</h3>
                 <p class="price">$20.00 AUD</p>
                 <br>
-                <button class="additem">Add to Cart</button>
+                <button class="additem" type="button">Add to Cart</button>
                 </div>
           </div>
 
@@ -87,7 +87,7 @@
                 <h3>Ctenanthe Grey Star</h3>
                 <p class="price">$35.00 AUD</p>
                 <br/>
-                <button class="additem">Add to Cart</button>
+                <button class="additem" type="button">Add to Cart</button>
                 </div>
     </div>
     <!-- end section 3 here -->
@@ -99,7 +99,7 @@
                 <h3>Begonia Maculata</h3>
                 <p class="price">$15.00 AUD</p>
                 <br/>
-                <button class="additem">Add to Cart</button>
+                <button class="additem" type="button">Add to Cart</button>
                 </div>
 
     </div>
@@ -107,7 +107,7 @@
 
     
     <!-- shopping cart starts here -->
-    <div class="shoppingCart">
+    <div class="shoppingCart" id="cart">
         <h1>Your Cart</h1>
         <br>
         <div class="cart-row">

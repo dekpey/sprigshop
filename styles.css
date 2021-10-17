@@ -282,6 +282,28 @@ section{
     font-size: 1.1em;
 }
 
+.purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 20px;
+    display:inline-block;
+    padding:5px 15px;
+    border:2px solid lightcoral;
+    border-radius:5px;
+    color:lightcoral;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+.purchase:hover{
+    border:2px solid #326d32;
+    color:#fff;
+    background-color: #326d32;
+}
+
+.remove {
+   margin-left: 30px;
+}
 
 footer{
     background-color: lightcoral;
