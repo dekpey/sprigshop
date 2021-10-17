@@ -191,8 +191,8 @@ section{
     transition: 0.3s;
     border-radius: 10px
   }
-  .container {
-    padding: 4px 15px;
+  #container {
+    padding: 5px 15px;
     text-align: left;
   }
 
